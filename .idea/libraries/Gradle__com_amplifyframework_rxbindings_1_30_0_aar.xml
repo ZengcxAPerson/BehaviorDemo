@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amplifyframework:rxbindings:1.30.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8169610e45835242f189becaa4febbe/jetified-rxbindings-1.30.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8169610e45835242f189becaa4febbe/jetified-rxbindings-1.30.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8169610e45835242f189becaa4febbe/jetified-rxbindings-1.30.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amplifyframework/rxbindings/1.30.0/884fde151637c193af6367eb37c57e89eb5fce61/rxbindings-1.30.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
