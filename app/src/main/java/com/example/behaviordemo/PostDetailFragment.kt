@@ -21,7 +21,12 @@ class PostDetailFragment : Fragment(R.layout.fragment_detail) {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentDetailBinding.bind(view)
 
-        val adapter = MyItemRecyclerViewAdapter(PlaceholderContent.ITEMS)
+        val adapter = MyItemRecyclerViewAdapter(
+            PlaceholderContent.ITEMS.subList(
+                0, 4
+            )
+        )
+
         binding.postDetailRecyclerView.adapter = adapter
         binding.postDetailRecyclerView.isNestedScrollingEnabled = true
     }

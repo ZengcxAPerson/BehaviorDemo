@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true"
     tools:context=".ScrollingActivity">
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    <com.example.behaviordemo.CustomCoordinatorLayout
         android:id="@+id/coordinatorLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -35,6 +35,6 @@
             app:elevation="0dp"
             app:layout_behavior="com.example.behaviordemo.BottomBehavior" />
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.example.behaviordemo.CustomCoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,17 +12,4 @@ class TopAppBarLayout @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : AppBarLayout(context, attributeSet, defStyleAttr) {
 
-    private var target: RecyclerView? = null
-
-    fun setScrollView(target: View) {
-        if (this.target == null) {
-            this.target = target as? RecyclerView
-        }
-    }
-
-    fun equalsSlidingTarget(
-        target: View
-    ): Boolean {
-        return target == this.target
-    }
 }
