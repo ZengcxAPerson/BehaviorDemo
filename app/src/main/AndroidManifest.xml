@@ -13,6 +13,9 @@
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/Theme.BehaviorDemo.NoActionBar" >
+
+        </activity>
+        <activity android:name=".mimusic.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

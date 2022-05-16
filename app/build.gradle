@@ -57,4 +57,5 @@ dependencies {
     implementation 'com.amplifyframework:core:1.30.0'
     implementation 'com.amplifyframework:rxbindings:1.30.0'
     implementation 'com.amplifyframework:aws-storage-s3:1.30.0'
+    implementation "androidx.palette:palette:1.0.0"
 }
